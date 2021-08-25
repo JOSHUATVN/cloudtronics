@@ -30,11 +30,16 @@ ISC
 
 ## Features
 
-If your project has a lot of features, consider adding a heading called "Features" and listing them there.
 
 
 ## Contributing
 Virginia Rabello https://github.com/virginia-rabello
+
+
 Marisela Gutierrez https://github.com/marisela-gutierrez
+
+
 Bryant Uwagbale https://github.com/bryantuwagbale
+
+
 Joshua Nguyen https://github.com/JOSHUATVN
