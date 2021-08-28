@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { useMutation } from '@apollo/react-hooks';
-import { ADD_ORDER } from "../utils/mutations";
+import { ADD_ORDER } from "../utils/dist/mutations";
 import { idbPromise } from "../utils/helpers";
 
 function Success() {
@@ -29,8 +29,8 @@ function Success() {
   }, [addOrder]);
 
   return (
-   <div class="hero" role="img" aria-label="">
-     <div class="hero-inner">
+   <div className="hero" role="img" aria-label="">
+     <div className="hero-inner">
        <div>
         <h1>Success!</h1>
         <h4>

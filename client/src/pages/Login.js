@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useMutation } from '@apollo/react-hooks';
 import { Link } from 'react-router-dom';
-import { LOGIN } from '../utils/mutations';
+import { LOGIN } from '../utils/dist/mutations';
 import Auth from '../utils/auth';
 import { FormDiv, Form, InputDiv } from './styles';
 import 'materialize-css/dist/css/materialize.min.css';
@@ -32,8 +32,8 @@ function Login(props) {
   };
 
   return (
-    <div class="hero" role="img" aria-label="">
-    <div class="hero-inner">
+    <div className="hero" role="img" aria-label="">
+    <div className="hero-inner">
     <FormDiv>
     <div className="container">
       <Link to="/signup">← Go to Signup</Link>
